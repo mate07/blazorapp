@@ -1,0 +1,62 @@
+﻿@page "/counter/{CounterParam?}"
+@using Microsoft.Extensions.Configuration
+@inject IConfiguration Config
+@inject ILogger<Counter> logger
+@inject IToastService toastService
+
+<PageTitle>Counter</PageTitle>
+
+<TitleModule Title="Counter" />
+
+@if(currentCount != 0)
+{
+    <p role="status">Current count: @currentCount</p>
+}
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+@code {
+    private int currentCount = 0;
+
+    protected override void OnInitialized()
+    {
+        if (CounterParam is not null)
+        {
+            currentCount = int.Parse(CounterParam);
+        }
+        else
+        {
+            currentCount = 0;
+        }
+
+        //Agregando un manejo de Loggers
+        logger.LogInformation($"Inicializando componente currentCount={currentCount}");
+    }
+
+    [Parameter]
+    public string CounterParam { get; set; }
+
+    public override async Task SetParametersAsync(ParameterView parameters)
+    {
+        if (parameters.TryGetValue<string>(nameof(CounterParam), out var value))
+        {
+            if (value is null)
+            {
+                CounterParam = value;
+            }
+        }
+        await base.SetParametersAsync(parameters);
+    }
+
+    private void IncrementCount()
+    {
+        var counterIncrese = int.Parse(Config["counterIncrese"]);
+        currentCount = currentCount + counterIncrese;
+
+        //Agregando manejo de Loggers
+        logger.LogInformation($" variable currentCount incrementado por {counterIncrese}");
+
+        //Incorporando Blazored.Toast
+        toastService.ShowInfo("Incrementando Conteo");
+    }  
+}

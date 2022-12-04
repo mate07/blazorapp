@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "nobfdKLKDmqh+DKTcr7zr7GgKduo1bnXSfZGeAKp3Fqf121adq5w4qVgX1C1g+48o0jdXmpaaxjPalVlJOt1hg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Jehova Shalom\\Documents\\Visual Studio 2022\\Proyectos Blazor\\BlazorApp\\BlazorLibrary\\BlazorLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.9\\microsoft.aspnetcore.authorization.6.0.9.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.9\\microsoft.aspnetcore.components.6.0.9.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\6.0.9\\microsoft.aspnetcore.components.analyzers.6.0.9.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.9\\microsoft.aspnetcore.components.forms.6.0.9.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.9\\microsoft.aspnetcore.components.web.6.0.9.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.9\\microsoft.aspnetcore.metadata.6.0.9.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\microsoft.extensions.dependencyinjection.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\microsoft.extensions.logging.abstractions.6.0.2.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\microsoft.jsinterop\\6.0.9\\microsoft.jsinterop.6.0.9.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\system.io.pipelines\\6.0.3\\system.io.pipelines.6.0.3.nupkg.sha512",
+    "C:\\Users\\Jehova Shalom\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
